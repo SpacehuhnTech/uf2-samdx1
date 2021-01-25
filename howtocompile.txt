@@ -1,0 +1,4 @@
+(Install gcc arm https://gist.github.com/joegoggins/7763637)
+
+export PATH="$PATH:/usr/local/gcc_arm/gcc-arm-none-eabi-7-2017-q4-major/bin/"
+make BOARD=malduino
