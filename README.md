@@ -52,7 +52,7 @@ external flash chip, SD card etc.).
 
 These configuration values can be read from `INFO_UF2.TXT` file.
 Presence of this file can be tested to see if the board supports `UF2` flashing,
-while contest, particularly `Board-ID` field, can be used for feature detection.
+while the contents, particularly `Board-ID` field, can be used for feature detection.
 
 The current flash contents of the board is exposed as `CURRENT.UF2` file.
 This file includes the bootloader address space. The last word of bootloader

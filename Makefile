@@ -142,7 +142,7 @@ qc \n\
 " > $(BUILD_PATH)/flash.jlink
 
 jlink-flash: $(BUILD_PATH)/$(NAME).bin $(BUILD_PATH)/flash.jlink
-	jlinkexe -if swd -device AT$(CHIP_VARIANT) -speed 4000 -CommanderScript $(BUILD_PATH)/flash.jlink
+	JLinkExe -if swd -device AT$(CHIP_VARIANT) -speed 4000 -CommanderScript $(BUILD_PATH)/flash.jlink
 
 wait:
 	sleep 5
